@@ -54,6 +54,14 @@ public class Main {
         if (aKidAge) {System.out.println(" Ребёнок может кататьсяя в сопровождении взрослых (родителей) ");}
         else {System.out.println(" Можно кататься без сопровождения ");}
 
+        //task4.3.3//
+        int one = 20;
+        int two = 20;
+        int three = 20;
+        if (one > two && one > three) {System.out.println( one + " больше остальных чисел ");}
+        if (two > one && two > three) {System.out.println( two + " больше остальных чисел ");}
+        if (three > two && three > one) {System.out.println( three + " больше остальных чисел ");}
+        else {System.out.println(" Все числа равны ");}
     }
 
 }
