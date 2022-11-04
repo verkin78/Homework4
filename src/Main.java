@@ -47,6 +47,12 @@ public class Main {
         if (studentAge) {System.out.println(" Если возраст человека равен " + personAge + " то ему нужно ходить в университет ");}
         else {System.out.println(" Если возраст человека равен " + personAge + " то ему нужно ходить на работу ");}
 
+        //task4.3.2//
+        int aAge = 5;
+        boolean aKidAge = (aAge >= 5 && aAge < 14);
+        if (aAge < 5) {System.out.println(" Ребёнок не может кататься на аттракционе ");}
+        if (aKidAge) {System.out.println(" Ребёнок может кататьсяя в сопровождении взрослых (родителей) ");}
+        else {System.out.println(" Можно кататься без сопровождения ");}
 
     }
 
