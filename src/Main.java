@@ -2,12 +2,8 @@ public class Main {
     public static void main(String[] args) {
         //task4.1//
         int age = 1;
-        if (age >= 18) {
-            System.out.println("Поздравляем с совершеннолетием!");
-        }
-        if (age < 18) {
-            System.out.println("Возраст совершеннолетия ещё не наступил, вам нужно подождать");
-        }
+        if (age >= 18) {System.out.println("Поздравляем с совершеннолетием!");}
+        if (age < 18) {System.out.println("Возраст совершеннолетия ещё не наступил, вам нужно подождать");}
 
         //task4.2//
         int ageOfKid = 7;
@@ -27,6 +23,14 @@ public class Main {
         int Age = 1;
         if (Age >= 18) {System.out.println("Поздравляем с совершеннолетием!");}
         else {System.out.println("Возраст совершеннолетия ещё не наступил, вам нужно подождать");}
+
+        //task4.5//
+        int anyAge = 1;
+        if (anyAge < 7) {System.out.println("Дошколёнок");}
+        if (anyAge >= 7 && anyAge <18) {System.out.println("ребенок ходит в школу");}
+        if (anyAge >= 18 && anyAge < 24) {System.out.println("уже закончил школу и может отправляться в университет");}
+        else {System.out.println("окончил университет и пора искать первую работу");}
+
 
     }
 
