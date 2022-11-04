@@ -37,6 +37,16 @@ public class Main {
         if (placeAtTrain >= 60 && placeAtTrain <= 102) {System.out.println("В вагоне есть только стоячие места");}
         else {System.out.println("В вагоне нет свободных мест");}
 
+        //task4.3.1//
+        int personAge = 55;
+        boolean kidAge = personAge >= 2 && personAge <= 6;
+        boolean pupilAge = (personAge >= 7 && personAge < 18);
+        boolean studentAge = (personAge >= 18 && personAge <24);
+        if (kidAge) {System.out.println(" Если возраст человека равен " + personAge + " то ему нужно ходить в детский сад ");}
+        if (pupilAge) {System.out.println(" Если возраст человека равен " + personAge + " то ему нужно ходить в школу ");}
+        if (studentAge) {System.out.println(" Если возраст человека равен " + personAge + " то ему нужно ходить в университет ");}
+        else {System.out.println(" Если возраст человека равен " + personAge + " то ему нужно ходить на работу ");}
+
 
     }
 
