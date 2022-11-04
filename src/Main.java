@@ -31,6 +31,12 @@ public class Main {
         if (anyAge >= 18 && anyAge < 24) {System.out.println("уже закончил школу и может отправляться в университет");}
         else {System.out.println("окончил университет и пора искать первую работу");}
 
+         //task4.6//
+        int placeAtTrain = 1;
+        if (placeAtTrain <= 59) {System.out.println("В вагоне есть сидячие и стоячие места");}
+        if (placeAtTrain >= 60 && placeAtTrain <= 102) {System.out.println("В вагоне есть только стоячие места");}
+        else {System.out.println("В вагоне нет свободных мест");}
+
 
     }
 
