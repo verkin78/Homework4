@@ -23,6 +23,11 @@ public class Main {
         if (place >= 60 && place <= 102) {System.out.println("В вагоне есть только стоячие места");}
         if (place >= 102) {System.out.println("В вагоне нет свободных мест");}
 
+        //task4.4//
+        int Age = 1;
+        if (Age >= 18) {System.out.println("Поздравляем с совершеннолетием!");}
+        else {System.out.println("Возраст совершеннолетия ещё не наступил, вам нужно подождать");}
 
     }
+
 }
